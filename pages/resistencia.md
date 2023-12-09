@@ -1,8 +1,8 @@
 # Teste de Resistência
 
-1. [Node.js](#nodejs)
-2. [Django](#django)
-3. [.NET](#net)
+### 1. [Node.js](#nodejs)
+### 2. [Django](#django)
+### 3. [.NET](#net)
 
 ---
 # Node.js
@@ -16,6 +16,10 @@
 | **POST**   | 3.600.954,0 | 0,00 | 0,00% | 44,6 | 37,0 | 5.317,0 | 41,0 | 68,0 | 101,0 | 402,0 | 333,4 | 119,7 | 103,2 |
 | **PUT**    | 3.600.950,0 | 0,00 | 0,00% | 45,8 | 19,0 | 4.904,0 | 42,0 | 68,0 | 96,0 | 394,0 | 333,4 | 88,2 | 115,7 |
 
+<h1 align="center">
+  <img src="../images/resistencia/endurance-nodejs-exec1.png" width="100%" />
+</h1>
+
 ## Node.js - Execução 2
 
 | Tipo   | Amostras     | Falhas | Erro % | Average | Min | Max   | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send  |
@@ -25,6 +29,10 @@
 | **GET**    | 3.174.145,0 | 0,00 | 0,00% | 32,9 | 9,0 | 2.775,0 | 28,0 | 41,0 | 46,0 | 89,0 | 293,9 | 2.116,1 | 37,6 |
 | **POST**   | 3.174.150,0 | 0,00 | 0,00% | 51,5 | 37,0 | 3.240,0 | 41,0 | 45,0 | 62,0 | 105,0 | 293,9 | 105,5 | 91,0 |
 | **PUT**    | 3.174.150,0 | 0,00 | 0,00% | 52,6 | 22,0 | 2.926,0 | 42,0 | 48,0 | 92,0 | 107,0 | 293,9 | 77,8 | 102,0 |
+
+<h1 align="center">
+  <img src="../images/resistencia/endurance-nodejs-exec2.png" width="100%" />
+</h1>
 
 ## Node.js - Execução 3
 
@@ -37,9 +45,7 @@
 | **PUT**    | 3.607.647,0 | 0,00 | 0,00% | 45,9 | 19,0 | 1.021,0 | 41,0 | 44,0 | 47,0 | 109,0 | 334,1 | 88,4 | 115,9 |
 
 <h1 align="center">
-  <img src="../images/resistencia/endurance-nodejs-exec1.png" width="30%" />
-  <img src="../images/resistencia/endurance-nodejs-exec2.png" width="30%" />
-  <img src="../images/resistencia/endurance-nodejs-exec3.png" width="30%" />
+  <img src="../images/resistencia/endurance-nodejs-exec3.png" width="100%" />
 </h1>
 
 ## Node.js - Média das execuções
@@ -65,6 +71,10 @@
 | **POST**   | 13.457,0 | 84 | 0,62% | 1.163,4 | 2,0 | 114.212,0 | 24,0 | 840,0 | 1.139,0 | 29.362,8 | 87,3 | 39,8 | 26,9 |
 | **PUT**    | 13.238,0 | 0 | 0,00% | 289,8 | 28,0 | 2.596,0 | 117,0 | 972,0 | 1.211,0 | 1.611,0 | 120,4 | 55,4 | 41,2 |
 
+<h1 align="center">
+  <img src="../images/resistencia/endurance-drf-exec1.png" width="100%" />
+</h1>
+
 ## Django - Execução 2
 
 | Tipo   | Amostras | Falhas | Erro % | Average | Min | Max | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send  |
@@ -74,6 +84,10 @@
 | **GET**    | 13.284,0 | 0 | 0,00% | 189,4 | 4,0 | 2.092,0 | 65,0 | 660,0 | 843,0 | 1.225,2 | 120,9 | 3.292,3 | 15,5 |
 | **POST**   | 13.693,0 | 108 | 0,79% | 1.276,6 | 2,0 | 110.570,0 | 30,0 | 891,6 | 1.227,0 | 16.617,0 | 91,0 | 41,8 | 27,9 |
 | **PUT**    | 13.460,0 | 0 | 0,00% | 273,7 | 43,0 | 2.717,0 | 113,0 | 917,0 | 1.147,0 | 1.586,0 | 122,4 | 56,3 | 41,9 |
+
+<h1 align="center">
+  <img src="../images/resistencia/endurance-drf-exec2.png" width="100%" />
+</h1>
 
 ## Django - Execução 3
 
@@ -86,9 +100,7 @@
 | **PUT**    | 13.297,0 | 0 | 0,00% | 280,8 | 32,0 | 2.255,0 | 115,0 | 911,0 | 1.101,0 | 1.439,0 | 121,0 | 55,7 | 41,4 |
 
 <h1 align="center">
-  <img src="../images/resistencia/endurance-drf-exec1.png" width="30%" />
-  <img src="../images/resistencia/endurance-drf-exec2.png" width="30%" />
-  <img src="../images/resistencia/endurance-drf-exec3.png" width="30%" />
+  <img src="../images/resistencia/endurance-drf-exec3.png" width="100%" />
 </h1>
 
 ## Django - Média das execuções
@@ -114,6 +126,10 @@
 | **POST**   | 1.779.980,0 | 0,00 | 0,00% | 33,8 | 2,0 | 3.262,0 | 23,0 | 49,0 | 60,0 | 90,0 | 164,8 | 73,5 | 51,0 |
 | **PUT**    | 1.779.979,0 | 0,00 | 0,00% | 109,0 | 43,0 | 934,0 | 115,0 | 147,0 | 157,0 | 165,0 | 164,8 | 76,2 | 57,1 |
 
+<h1 align="center">
+  <img src="../images/resistencia/endurance-dotnet-exec1.png" width="100%" />
+</h1>
+
 ## .NET - Execução 2
 
 | Tipo   | Amostras     | Falhas | Erro % | Average | Min | Max   | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send  |
@@ -123,6 +139,10 @@
 | **GET**    | 1.789.281,0 | 0,00 | 0,00% | 77,2 | 4,0 | 924,0 | 72,0 | 104,0 | 112,0 | 120,0 | 165,7 | 916,0 | 21,2 |
 | **POST**   | 1.789.308,0 | 0,00 | 0,00% | 33,7 | 2,0 | 4.209,0 | 20,0 | 46,0 | 57,0 | 82,0 | 165,7 | 73,8 | 51,3 |
 | **PUT**    | 1.789.303,0 | 0,00 | 0,00% | 108,5 | 43,0 | 4.070,0 | 116,0 | 152,0 | 159,0 | 166,0 | 165,7 | 76,6 | 57,4 |
+
+<h1 align="center">
+  <img src="../images/resistencia/endurance-dotnet-exec2.png" width="100%" />
+</h1>
 
 ## .NET - Execução 3
 
@@ -135,9 +155,7 @@
 | **PUT**    | 1.788.026,0 | 0,00 | 0,00% | 108,9 | 43,0 | 542,0 | 96,0 | 123,0 | 133,0 | 161,0 | 165,6 | 76,5 | 57,4 |
 
 <h1 align="center">
-  <img src="../images/resistencia/endurance-dotnet-exec1.png" width="30%" />
-  <img src="../images/resistencia/endurance-dotnet-exec2.png" width="30%" />
-  <img src="../images/resistencia/endurance-dotnet-exec3.png" width="30%" />
+  <img src="../images/resistencia/endurance-dotnet-exec3.png" width="100%" />
 </h1>
 
 ## .NET - Média das execuções
