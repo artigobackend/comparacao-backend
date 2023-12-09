@@ -1,4 +1,4 @@
-# Teste de Pico
+# Teste de Resistência
 
 1. [Node.js](#nodejs)
 2. [Django](#django)
