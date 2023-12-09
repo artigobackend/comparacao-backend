@@ -1,10 +1,13 @@
 <link rel="stylesheet" href="{{ 'assets/styles.css' }}">
 
-# Comparação _Frameworks_ _Back-end_
+# Cenários de teste
+### 1. [Teste de Pico](#teste-de-pico)
+### 2. [Teste de Carga Crescente](#teste-de-carga-crescente)
+### 3. [Teste de Resistência](#teste-de-resistência)
 
-# Teste de Pico ([execuções](pages/pico.md))
+# Teste de Pico 
 
-### Sumarização dos dados
+### Sumarização dos dados ([execuções](pages/pico.md))
 
 | Teste de Pico               | Node.js | Django  | .NET   |
 |-----------------------------|---------|---------|--------|
@@ -32,9 +35,9 @@
 |--------------------------------------------------|---------|--------|-------|
 | **Valor**                                        | 4,20%   | 7,66%  | 0,34% |
 
-# Teste de Carga Crescente ([execuções](pages/crescente.md))
+# Teste de Carga Crescente
 
-### Sumarização dos dados
+### Sumarização dos dados ([execuções](pages/crescente.md))
 
 | Teste de Carga Crescente    | Node.js | Django  | .NET   |
 |-----------------------------|---------|---------|--------|
@@ -63,9 +66,9 @@
 | **Valor**                                        | 0,61%   | 6,68%  | 1,46% |
 
 
-# Teste de Resistência ([execuções](pages/resistencia.md))
+# Teste de Resistência
 
-### Sumarização dos dados
+### Sumarização dos dados ([execuções](pages/resistencia.md))
 
 | Teste de Resistência          | Node.js | Django | .NET   |
 |-------------------------------|---------|--------|--------|
