@@ -1,8 +1,8 @@
 # Teste de Carga Crescente
 
-1. [Node.js](#nodejs)
-2. [Django](#django)
-3. [.NET](#net)
+### 1. [Node.js](#nodejs)
+### 2. [Django](#django)
+### 3. [.NET](#net)
 
 ---
 # Node.js
@@ -16,6 +16,10 @@
 | **POST**   | 45.260,0 | 0 | 0,00% | 99,4 | 37,0 | 341,0 | 137,0 | 160,0 | 163,0 | 263,0 | 323,8 | 115,7 | 100,3 |
 | **PUT**    | 44.955,0 | 0 | 0,00% | 101,5 | 18,0 | 625,0 | 139,0 | 167,0 | 169,0 | 175,0 | 321,4 | 85,1 | 110,3 |
 
+<h1 align="center">
+  <img src="../images/crescente/crescente-nodejs-exec1.png" width="100%" />
+</h1>
+
 ## Node.js - Execução 2
 
 | Tipo   | Amostras | Falhas | Erro % | Average | Min | Max   | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send  |
@@ -25,6 +29,10 @@
 | **GET**    | 45.144,0 | 0 | 0,00% | 95,1 | 9,0 | 375,0 | 148,0 | 179,0 | 191,0 | 203,0 | 322,5 | 13.923,6 | 41,3 |
 | **POST**   | 45.545,0 | 0 | 0,00% | 99,9 | 37,0 | 362,0 | 138,0 | 159,0 | 163,0 | 279,0 | 325,8 | 116,4 | 100,9 |
 | **PUT**    | 45.397,0 | 0 | 0,00% | 102,3 | 20,0 | 376,0 | 140,0 | 166,0 | 170,0 | 299,0 | 324,6 | 85,9 | 111,4 |
+
+<h1 align="center">
+  <img src="../images/crescente/crescente-nodejs-exec2.png" width="100%" />
+</h1>
 
 ## Node.js - Execução 3
 
@@ -37,9 +45,7 @@
 | **PUT**    | 45.453,0 | 0 | 0,00% | 101,2 | 17,0 | 331,0 | 139,0 | 169,0 | 172,0 | 241,0 | 325,0 | 86,0 | 111,6 |
 
 <h1 align="center">
-  <img src="../images/crescente/crescente-nodejs-exec1.png" width="30%" />
-  <img src="../images/crescente/crescente-nodejs-exec2.png" width="30%" />
-  <img src="../images/crescente/crescente-nodejs-exec3.png" width="30%" />
+  <img src="../images/crescente/crescente-nodejs-exec3.png" width="100%" />
 </h1>
 
 ## Node.js - Média das execuções
@@ -65,6 +71,10 @@
 | **POST**   | 16.575,0 | 22 | 0,13% | 477,2 | 2,0 | 110.631,0 | 31,0 | 491,0 | 1.087,0 | 4.483,7 | 71,9 | 32,1 | 22,2 |
 | **PUT**    | 16.403,0 | 0 | 0,00% | 286,7 | 38,0 | 1.497,0 | 216,0 | 545,0 | 635,0 | 835,0 | 117,0 | 53,8 | 40,1 |
 
+<h1 align="center">
+  <img src="../images/crescente/crescente-drf-exec1.png" width="100%" />
+</h1>
+
 ## Django - Execução 2
 
 | Tipo   | Amostras | Falhas | Erro % | Average | Min | Max   | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send  |
@@ -74,6 +84,10 @@
 | **GET**    | 16.004,0 | 0 | 0,00% | 225,3 | 3,0 | 940,0 | 184,0 | 451,0 | 517,0 | 629,0 | 114,2 | 3.656,2 | 14,6 |
 | **POST**   | 16.441,0 | 50 | 0,30% | 633,1 | 2,0 | 108.310,0 | 29,0 | 209,0 | 1.049,0 | 7.827,9 | 72,0 | 32,4 | 22,2 |
 | **PUT**    | 16.294,0 | 0 | 0,00% | 287,4 | 43,0 | 872,0 | 244,0 | 540,0 | 619,0 | 723,0 | 116,1 | 53,4 | 39,8 |
+
+<h1 align="center">
+  <img src="../images/crescente/crescente-drf-exec2.png" width="100%" />
+</h1>
 
 ## Django - Execução 3
 
@@ -86,9 +100,7 @@
 | **PUT**    | 16.514,0 | 0 | 0,00% | 285,0 | 27,0 | 1.247,0 | 236,0 | 442,0 | 891,3 | 1.128,0 | 117,4 | 54,1 | 40,2 |
 
 <h1 align="center">
-  <img src="../images/crescente/crescente-drf-exec1.png" width="30%" />
-  <img src="../images/crescente/crescente-drf-exec2.png" width="30%" />
-  <img src="../images/crescente/crescente-drf-exec3.png" width="30%" />
+  <img src="../images/crescente/crescente-drf-exec3.png" width="100%" />
 </h1>
 
 ## Django - Média das execuções
@@ -114,6 +126,10 @@
 | **POST**   | 160.325,0 | 0 | 0,00% | 28,8 | 4,0 | 2.444,0 | 44,0 | 64,0 | 71,0 | 98,0 | 1.145,5 | 384,4 | 358,0 |
 | **PUT**    | 160.038,0 | 0 | 0,00% | 23,6 | 3,0 | 424,0 | 39,0 | 57,0 | 63,0 | 89,0 | 1.151,9 | 91,1 | 400,0 |
 
+<h1 align="center">
+  <img src="../images/crescente/crescente-dotnet-exec1.png" width="100%" />
+</h1>
+
 ## .NET - Execução 2
 
 | Tipo   | Amostras | Falhas | Erro % | Average | Min | Max   | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send  |
@@ -123,6 +139,10 @@
 | **GET**    | 163.775,0 | 0 | 0,00% | 21,0 | 1,0 | 1.697,0 | 43,0 | 60,0 | 66,0 | 82,0 | 1.179,1 | 42.131,9 | 154,3 |
 | **POST**   | 164.195,0 | 0 | 0,00% | 28,2 | 3,0 | 2.071,0 | 44,0 | 61,0 | 67,0 | 97,0 | 1.173,2 | 393,7 | 366,6 |
 | **PUT**    | 163.981,0 | 0 | 0,00% | 23,2 | 3,0 | 1.709,0 | 39,0 | 54,0 | 60,0 | 80,0 | 1.180,4 | 93,4 | 410,0 |
+
+<h1 align="center">
+  <img src="../images/crescente/crescente-dotnet-exec2.png" width="100%" />
+</h1>
 
 ## .NET - Execução 3
 
@@ -135,9 +155,7 @@
 | **PUT**    | 164.399,0 | 0 | 0,00% | 23,0 | 2,0 | 1.055,0 | 36,0 | 54,0 | 61,0 | 109,0 | 1.183,3 | 93,6 | 411,0 |
 
 <h1 align="center">
-  <img src="../images/crescente/crescente-dotnet-exec1.png" width="30%" />
-  <img src="../images/crescente/crescente-dotnet-exec2.png" width="30%" />
-  <img src="../images/crescente/crescente-dotnet-exec3.png" width="30%" />
+  <img src="../images/crescente/crescente-dotnet-exec3.png" width="100%" />
 </h1>
 
 ## .NET - Média das execuções
