@@ -95,7 +95,3 @@
 | Coeficiente de Variação (Tempo de resposta total) | Node.js | Django | .NET  |
 |--------------------------------------------------|---------|--------|-------|
 | **Valor**                                        | 7,49%   | 0,28%  | 9,65% |
-
-## Tabela de resultados dos testes
-<a href="https://docs.google.com/spreadsheets/d/1lTfUHosUtCoHn3hhCvFhU-fBZRwufI_J6V25VlhmgRc/edit?usp=sharing" class="download-button">Ver resultados</a>
-
