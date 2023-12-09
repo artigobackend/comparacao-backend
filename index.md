@@ -2,7 +2,7 @@
 
 # Comparação _Frameworks_ _Back-end_
 
-# Teste de Pico
+# Teste de Pico ([execuções](pages/pico.md))
 
 ### Sumarização dos dados
 
@@ -32,7 +32,7 @@
 |--------------------------------------------------|---------|--------|-------|
 | **Valor**                                        | 4,20%   | 7,66%  | 0,34% |
 
-# Teste de Carga Crescente
+# Teste de Carga Crescente ([execuções](pages/crescente.md))
 
 ### Sumarização dos dados
 
@@ -63,7 +63,7 @@
 | **Valor**                                        | 0,61%   | 6,68%  | 1,46% |
 
 
-# Teste de Resistência
+# Teste de Resistência ([execuções](pages/resistencia.md))
 
 ### Sumarização dos dados
 
