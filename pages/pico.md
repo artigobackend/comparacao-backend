@@ -1,8 +1,8 @@
 # Teste de Pico
 
-1. [Node.js](#nodejs)
-2. [Django](#django)
-3. [.NET](#net)
+### 1. [Node.js](#nodejs)
+### 2. [Django](#django)
+### 3. [.NET](#net)
 
 ---
 # Node.js
@@ -16,6 +16,10 @@
 | **POST**   | 37.160,0 | 0 | 0,00% | 121,1 | 16,0 | 557,0 | 40,0 | 404,0 | 412,0 | 418,0 | 338,1 | 120,7 | 104,7 |
 | **PUT**    | 37.138,0 | 0 | 0,00% | 124,3 | 7,0 | 494,0 | 41,0 | 419,0 | 424,0 | 467,0 | 338,0 | 89,5 | 116,0 |
 
+<h1 align="center">
+  <img src="../images/pico/spike1-nodejs-exec1.png" width="100%" />
+</h1>
+
 ## Node.js - Execução 2
 
 | Tipo   | Amostras | Falhas | Erro % | Average | Min | Max | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send  |
@@ -25,6 +29,10 @@
 | **GET**    | 36.239,0 | 0 | 0,00% | 124,2 | 4,0 | 479,0 | 38,0 | 435,0 | 440,0 | 452,0 | 329,9 | 11.752,3 | 42,2 |
 | **POST**   | 36.555,0 | 0 | 0,00% | 125,1 | 18,0 | 576,0 | 40,0 | 403,0 | 406,0 | 412,0 | 332,6 | 118,8 | 103,0 |
 | **PUT**    | 36.250,0 | 0 | 0,00% | 125,8 | 5,0 | 459,0 | 41,0 | 419,0 | 428,0 | 444,0 | 330,0 | 87,3 | 113,2 |
+
+<h1 align="center">
+  <img src="../images/pico/spike1-nodejs-exec2.png" width="100%" />
+</h1>
 
 ## Node.js - Execução 3
 
@@ -37,9 +45,7 @@
 | **PUT**    | 34.556,0 | 0 | 0,00% | 132,2 | 8,0 | 634,0 | 41,0 | 421,0 | 427,0 | 630,0 | 314,5 | 83,2 | 107,9 |
 
 <h1 align="center">
-  <img src="../images/pico/spike1-nodejs-exec1.png" width="30%" />
-  <img src="../images/pico/spike1-nodejs-exec2.png" width="30%" />
-  <img src="../images/pico/spike1-nodejs-exec3.png" width="30%" />
+  <img src="../images/pico/spike1-nodejs-exec3.png" width="100%" />
 </h1>
 
 ## Node.js - Média das execuções
@@ -65,6 +71,10 @@
 | **POST**   | 13.457,0 | 84 | 0,62% | 1.163,4 | 2,0 | 114.212,0 | 24,0 | 840,0 | 1.139,0 | 29.362,8 | 87,3 | 39,8 | 26,9 |
 | **PUT**    | 13.238,0 | 0 | 0,00% | 289,8 | 28,0 | 2.596,0 | 117,0 | 972,0 | 1.211,0 | 1.611,0 | 120,4 | 55,4 | 41,2 |
 
+<h1 align="center">
+  <img src="../images/pico/spike1-drf-exec1.png" width="100%" />
+</h1>
+
 ## Django - Execução 2
 
 | Tipo   | Amostras | Falhas | Erro % | Average | Min | Max | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send  |
@@ -74,6 +84,10 @@
 | **GET**    | 13.284,0 | 0 | 0,00% | 189,4 | 4,0 | 2.092,0 | 65,0 | 660,0 | 843,0 | 1.225,2 | 120,9 | 3.292,3 | 15,5 |
 | **POST**   | 13.693,0 | 108 | 0,79% | 1.276,6 | 2,0 | 110.570,0 | 30,0 | 891,6 | 1.227,0 | 16.617,0 | 91,0 | 41,8 | 27,9 |
 | **PUT**    | 13.460,0 | 0 | 0,00% | 273,7 | 43,0 | 2.717,0 | 113,0 | 917,0 | 1.147,0 | 1.586,0 | 122,4 | 56,3 | 41,9 |
+
+<h1 align="center">
+  <img src="../images/pico/spike1-drf-exec2.png" width="100%" />
+</h1>
 
 ## Django - Execução 3
 
@@ -86,9 +100,7 @@
 | **PUT**    | 13.297,0 | 0 | 0,00% | 280,8 | 32,0 | 2.255,0 | 115,0 | 911,0 | 1.101,0 | 1.439,0 | 121,0 | 55,7 | 41,4 |
 
 <h1 align="center">
-  <img src="../images/pico/spike1-drf-exec1.png" width="30%" />
-  <img src="../images/pico/spike1-drf-exec2.png" width="30%" />
-  <img src="../images/pico/spike1-drf-exec3.png" width="30%" />
+  <img src="../images/pico/spike1-drf-exec3.png" width="100%" />
 </h1>
 
 ## Django - Média das execuções
@@ -114,6 +126,10 @@
 | **POST**   | 112.931,0 | 0 | 0,00% | 35,8 | 2,0 | 2.288,0 | 8,0 | 14,0 | 16,0 | 24,0 | 1.027,3 | 344,1 | 321,0 |
 | **PUT**    | 112.758,0 | 0 | 0,00% | 32,9 | 2,0 | 350,0 | 6,0 | 11,0 | 13,0 | 19,0 | 1.035,4 | 81,9 | 359,0 |
 
+<h1 align="center">
+  <img src="../images/pico/spike1-dotnet-exec1.png" width="100%" />
+</h1>
+
 ## .NET - Execução 2
 
 | Tipo   | Amostras | Falhas | Erro % | Average | Min  | Max   | Median | 90th pct | 95th pct | 99th pct | Transaction/s | Received | Send   |
@@ -123,6 +139,10 @@
 | **GET**    | 113.787,0 | 0 | 0,00% | 30,9 | 0,0 | 391,0 | 5,0 | 8,0 | 10,0 | 13,0 | 1.045,2 | 38.046,6 | 136,8 |
 | **POST**   | 114.059,0 | 0 | 0,00% | 36,9 | 2,0 | 2.054,0 | 8,0 | 13,0 | 15,0 | 21,0 | 1.037,6 | 347,6 | 324,3 |
 | **PUT**    | 113.912,0 | 0 | 0,00% | 33,3 | 1,0 | 418,0 | 6,0 | 10,0 | 12,0 | 17,0 | 1.046,1 | 82,8 | 362,7 |
+
+<h1 align="center">
+  <img src="../images/pico/spike1-dotnet-exec2.png" width="100%" />
+</h1>
 
 ## .NET - Execução 3
 
@@ -135,9 +155,7 @@
 | **PUT**    | 113.462,0 | 0 | 0,00% | 32,8 | 2,0 | 990,0 | 6,0 | 11,0 | 13,0 | 18,0 | 1.041,7 | 82,4 | 361,2 |
 
 <h1 align="center">
-  <img src="../images/pico/spike1-dotnet-exec1.png" width="30%" />
-  <img src="../images/pico/spike1-dotnet-exec2.png" width="30%" />
-  <img src="../images/pico/spike1-dotnet-exec3.png" width="30%" />
+  <img src="../images/pico/spike1-dotnet-exec3.png" width="100%" />
 </h1>
 
 ## ASP.NET Core - Média das execuções
